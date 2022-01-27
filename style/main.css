@@ -1,0 +1,175 @@
+@font-face {
+  font-family: 'Exo', sans-serif;
+  src: url();
+}
+
+:root{
+  --blue: #c0d9ed;
+  --black: #141414;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Elementos base*/
+body{
+ background: var(--black);
+ font-family: 'Exo', sans-serif;
+ color: white;
+}
+
+
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+header .logo {
+  margin-left: 5px;
+  color: var(--blue);
+  font-family: 'Exo', sans-serif;
+  font-size: 40px;
+}
+
+header nav a { 
+  text-decoration: none;
+  color: #aaa;
+  margin: 10px;
+
+}
+
+header nav a:hover {
+  color:#fff;
+}
+
+/* Filme principal*/
+.main-movie{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/capa.jpeg');
+  
+  height: 400px;
+  background-size: cover;
+
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: flex-start;
+}
+
+.main-movie  .description {
+  margin-top: 10px;
+  margin-bottom: 40px;
+
+  
+}
+
+.main-movie .title {
+  margin-top:15%;
+  font-size:40px;
+  font-family: 'Exo', sans-serif;
+  
+}
+
+.button-btn {
+text-decoration-line: none;
+background-color: rgba(148, 148, 148, 0.5);
+border: none;
+color: white;
+
+padding: 15px 30px;
+margin-right: 15px;
+font-size: 12px;
+margin-left: 20px;
+
+
+cursor: pointer;
+transition: .3s ease all;
+
+font-family: 'Exo', sans-serif;
+}
+
+
+
+.button-btn:hover{
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.button-btn i{
+  margin-right: 8px;
+ 
+}
+
+.button-btn a {
+  text-decoration-line: none;
+  color: black;
+}
+
+.container   {
+  margin-left: 20px;
+}
+
+
+.main-movie .container{
+  width: 70%;
+ 
+
+}
+
+.box-filme {
+ 
+  height:100%;
+  width: 100%;
+  display: block;
+  
+}
+
+.link  {
+  color: #c0d9ed;
+  text-decoration-line: none;
+
+}
+  
+.carousel-movies{
+  margin-top: 5px;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+
+.video {
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+ 
+
+.foo-ter {
+margin-top: 20px;
+ margin-bottom: 20px;
+ 
+ 
+}
+
+.link-a{
+  text-decoration: none;
+  color: var(--blue)
+}
+ 
+
+
+
+
+
+
+
+
